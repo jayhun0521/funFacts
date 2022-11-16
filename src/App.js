@@ -17,7 +17,7 @@ class App extends Component {
       <Route path='/postOne' component={PostOne} />
       <Route path='/postTwo' component={PostTwo} />
       <Route path='/postThree' component={PostThree} />
-      </Switch>
+    </Switch>
     </div>
     </BrowserRouter>
   );
