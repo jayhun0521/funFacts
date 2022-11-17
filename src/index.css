@@ -13,7 +13,7 @@ code {
 }
 
 body {
-  background-image: url('./US_Army_Emblem-removebg-preview.png'), radial-gradient(#05fc05, #000000), repeating-linear-gradient(transparent 0, rgba(0, 0, 0, 0.1) 2.5px, transparent 5px);
+  background-image: url('./US_Army_Emblem-removebg-preview.png'), radial-gradient(#3c973c, #000000), repeating-linear-gradient(transparent 0, rgba(0, 0, 0, 0.1) 2.5px, transparent 5px);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -62,12 +62,21 @@ h2 {
 }
 
 p {
-  color: plum;
+  display: flex;
+  color: rgb(59, 218, 39);
+  font-weight: 600;
   padding: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200;
+  width: 750px;
+  margin-top: 20px;
+  border: 5px solid #00ff00; 
 }
 
 img.photo { 
-  display: block;
+  display: flex;
   margin-left: auto;
   margin-right: auto;
   height: 400px;
